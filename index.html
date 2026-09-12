@@ -2,68 +2,134 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AR26</title>
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-  <link rel="apple-touch-icon" sizes="180x180" href="https://i.imgur.com/At3TYPk.png">
-  <link rel="icon" type="image/png" href="https://i.imgur.com/At3TYPk.png">
+  <title>Asamblea de Circuito 2026-2027</title>
+
+  <!-- Icono para iPhone / pantalla de inicio -->
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="https://i.imgur.com/9nwroiY.png"
+  >
+
+  <link
+    rel="icon"
+    type="image/png"
+    href="https://i.imgur.com/9nwroiY.png"
+  >
 
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="AR26">
-  <meta name="theme-color" content="#0c0f14">
+  <meta name="apple-mobile-web-app-title" content="AC 26-27">
+  <meta name="theme-color" content="#d6aa55">
 
   <style>
-    body{
-      margin:0;
-      font-family:Arial, sans-serif;
-      background:#0c0f14;
-      color:#fff;
-      display:flex;
-      min-height:100vh;
-      align-items:center;
-      justify-content:center;
-      text-align:center;
-      padding:24px;
+    * {
+      box-sizing: border-box;
     }
-    .card{
-      max-width:360px;
-      width:100%;
+
+    html,
+    body {
+      margin: 0;
+      min-height: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        linear-gradient(
+          180deg,
+          #faf7ef 0%,
+          #f3ead7 100%
+        );
     }
-    img{
-      width:120px;
-      height:120px;
-      border-radius:26px;
-      display:block;
-      margin:0 auto 18px;
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24px;
     }
-    h1{
-      margin:0 0 10px;
-      font-size:28px;
+
+    .card {
+      width: 100%;
+      max-width: 390px;
+      background: white;
+      border-radius: 24px;
+      padding: 28px 22px;
+      text-align: center;
+      box-shadow:
+        0 12px 40px rgba(0,0,0,.10);
     }
-    p{
-      margin:0 0 20px;
-      color:#cbd5e1;
-      line-height:1.4;
+
+    img {
+      width: 150px;
+      height: 150px;
+      object-fit: contain;
+      border-radius: 28px;
+      margin-bottom: 18px;
     }
-    a.boton{
-      display:inline-block;
-      background:#0f766e;
-      color:#fff;
-      text-decoration:none;
-      padding:14px 22px;
-      border-radius:14px;
-      font-weight:bold;
+
+    h1 {
+      margin: 0;
+      color: #272727;
+      font-size: 25px;
+    }
+
+    .subtitulo {
+      margin-top: 8px;
+      color: #8c6a31;
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .texto {
+      margin: 16px 0 22px;
+      color: #666;
+      font-size: 14px;
+    }
+
+    .boton {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      border-radius: 14px;
+      background: #b58a42;
+      color: white;
+      text-decoration: none;
+      font-size: 17px;
+      font-weight: 700;
     }
   </style>
 </head>
+
 <body>
+
   <div class="card">
-    <img src="https://i.imgur.com/At3TYPk.png" alt="AR26">
-    <h1>AR26</h1>
-    <p>Acomodadores Asamblea Regional 2026</p>
-    <p>Secciones 1,4 y 7</p>
-<a class="boton" href="https://script.google.com/macros/s/AKfycbx5c_7QfbsrqpXiKUJrIB4ApnpMgfoTD3PVnDVo683V5vbuKPSpGxw-Vj6-GDIB2wv8/exec">Abrir app</a>  
+
+    <img
+      src="https://i.imgur.com/9nwroiY.png"
+      alt="Asamblea de Circuito 2026-2027"
+    >
+
+    <h1>Asamblea de Circuito</h1>
+
+    <div class="subtitulo">
+      2026–2027
+    </div>
+
+    <div class="texto">
+      Acomodadores
+    </div>
+
+    <a
+      id="abrirApp"
+      class="boton"
+      href="https://script.google.com/macros/s/AKfycbymc6ksE6wJxixJ3fQcTx47Qux3DsxRBw-U-MUTlF50FRpRs6yKoNriVLYdJDqBZ2Kd_w/exec"
+    >
+      Abrir app
+    </a>
+
   </div>
+
 </body>
 </html>
